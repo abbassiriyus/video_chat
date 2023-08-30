@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
-const API_KEY = process.env.daily_API_KEY;
+const API_KEY ='d54f1f20282f7839768abf5e1d7c687cc4656355cd5c505e1b549d0ea87a921d';
 
 const headers = {
   Accept: "application/json",
